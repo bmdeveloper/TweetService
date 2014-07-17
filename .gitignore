@@ -21,3 +21,6 @@ bin/
 obj/
 TestResults/
 ####################
+# Web publish log #
+###################
+*.Publish.xml
