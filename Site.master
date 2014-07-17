@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%: Page.Title %> - Twitter Application</title>
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="Style/style.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width" />
+    <script src="Scripts/jquery-1.11.0.min.js"></script>
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+
+</head>
+<body>
+    <form runat="server">
+   
+    <header>
+        <h1>Twitter Application</h1>
+    </header>
+    <div id="body">
+        <section class="content-wrapper main-content clear-fix">
+            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </section>
+    </div>
+    <footer>
+        <div class="content-wrapper">
+            <div>
+                <p>
+                    &copy; <%: DateTime.Now.Year %> - Twitter Application
+                </p>
+            </div>
+        </div>
+    </footer>
+    </form>
+</body>
+</html>

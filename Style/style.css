@@ -1,0 +1,62 @@
+﻿body {
+}
+
+#body {
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+p, a, h1, h2, h3 {
+    font-family: Arial;
+    font-weight:normal;
+}
+
+
+p, a {
+   font-size: 14px;
+}
+
+.error {
+    color: red;
+}
+
+
+input[type=text] {
+    width:620px;
+    height:20px;
+    border:1px solid #a9a6a6;
+}
+
+/*twitter box styles*/
+.twitterbox {
+}
+
+.twitterbox .tweet {
+    overflow: auto;
+    margin:10px 0px;
+}
+
+.twitterbox .iconimg, .twitterbox .tweettext {
+    float: left;
+}
+
+.twitterbox .tweettext {
+}
+
+.twitterbox .tweetimage {
+    display:table;
+    clear:both;
+
+}
+
+.twitterbox .tweetimage img {
+    max-width: 300px;
+}
+
+.twitterbox .hashtag {
+    color: darkred;
+}
