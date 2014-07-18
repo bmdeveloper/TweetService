@@ -153,7 +153,7 @@
                 //loop through urls in the tweet
                 $.each(tweet.entities.hashtags, function (index, value) {
                     var hashtag = "#" + value.text;
-                    var hashtaglink = "https:\/\/twitter.com\/" + value.text + "?src=hash";
+                    var hashtaglink = "https:\/\/twitter.com\/hashtag\/" + value.text + "?src=hash";
                     treatedtweetstext = treatedtweetstext.replace(hashtag, "<span class=\"hashtag\"><a target=\"_blank\" href=\"" + hashtaglink + "\">" + hashtag + "</a></span>");
                 }
 
