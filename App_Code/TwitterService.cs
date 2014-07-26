@@ -30,8 +30,7 @@ public class TwitterService : System.Web.Services.WebService {
        
     }
 
-
-    [WebMethod]
+    [WebMethod(CacheDuration = 15)]
     public string GetTwitterData(string resourceurl)
     {
         TwitterApiCall arsenalTweets = new TwitterApiCall(consumerkey, consumersecret, accesstoken, accesssecret);

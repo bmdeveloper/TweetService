@@ -13,9 +13,11 @@
         // Establish our default settings
         var settings = $.extend({
             //set default to twitter api
-            resourceurl: "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi"
+            resourceurl: "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi",
+            updateinterval: null
         }, options);
 
+        
         return this.each(function () {
             var element = $(this);
 
@@ -27,6 +29,13 @@
             TweetObject.resourceurl = resourceurl;
             element.empty();
             TwitterAjaxCall(element);
+            if (settings.updateinterval != null)
+             {
+                setInterval(function () {
+                element.empty();
+                TwitterAjaxCall(element);
+            }, settings.updateinterval);
+            }
         }
 
 
