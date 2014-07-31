@@ -58,6 +58,9 @@
 
 
         }
+
+       
+
         function LoadTweets(jsondata, element) {
 
             var data = JSON.parse(jsondata);
@@ -95,11 +98,10 @@
                 var images = GetImagesForTweet(value);
 
 
-                element.append("<div class=\"tweet\">" + icon + tweet + images + "</div>")
+                element.append("<div class=\"tweet\">" + icon + tweet + images + "</div>");
 
             });
 
-            //write method that processes links and hashtags
         }
 
         function TreatTweetText(tweet) {
