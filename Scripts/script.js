@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
     
-
+    gettweets("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=arsenal&count=4");
 
     $("#QueryButton").on("click", function () {
         var url = $("#TwitterQuery").val().trim();

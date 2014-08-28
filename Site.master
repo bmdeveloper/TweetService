@@ -22,7 +22,7 @@
     </header>
     <div id="body">
         <section class="content-wrapper main-content clear-fix">
-            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+            <asp:ContentPlaceHolder runat="server" ID="maincontent" />
         </section>
     </div>
     <footer>

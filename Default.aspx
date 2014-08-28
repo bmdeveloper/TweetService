@@ -5,7 +5,7 @@
     <script src="Scripts/script.js"></script>
 </asp:Content>
 
-<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="maincontent">
 
 
     <p>Add your twitter search or timeline query in the textbox below</p> 

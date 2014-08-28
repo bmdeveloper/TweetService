@@ -1,7 +1,16 @@
 ﻿body {
+    margin:0px;
+    background:#333;
+    
 }
 
-#body {
+form {
+    overflow:auto;
+    max-width:780px;
+    margin:0 auto;
+    background:#fff;
+    padding:10px;
+
 }
 
 .clear {
@@ -25,6 +34,7 @@ p, a {
 }
 
 
+
 input[type=text] {
     width:620px;
     height:20px;
@@ -36,7 +46,6 @@ input[type=text] {
 }
 
 .twitterbox .tweet {
-    overflow: auto;
     margin:10px 0px;
 }
 
