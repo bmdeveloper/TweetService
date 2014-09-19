@@ -1,6 +1,7 @@
 ﻿body {
     margin:0px;
     background:#333;
+    font-size: 14px;
     
 }
 
@@ -26,7 +27,7 @@ p, a, h1, h2, h3 {
 
 
 p, a {
-   font-size: 14px;
+   
 }
 
 .error {
@@ -43,6 +44,8 @@ input[type=text] {
 
 /*twitter box styles*/
 .twitterbox {
+    clear:both;
+    margin-top:60px;
 }
 
 .twitterbox .tweet {
@@ -54,6 +57,7 @@ input[type=text] {
 }
 
 .twitterbox .tweettext {
+    
 }
 
 .twitterbox .tweetimage {
@@ -69,3 +73,28 @@ input[type=text] {
 .twitterbox .hashtag {
     color: darkred;
 }
+/*twitter box styles end*/
+
+/*Query Button and Box*/
+#TwitterQuery, #QueryButton
+{
+    float:left;
+    
+    
+
+
+}
+
+
+#QueryButton{
+    
+    text-decoration:none;
+    display:block;
+    background-color:#333;
+    padding:3px;
+    margin-left:3px;
+    color:#fff;
+    font-weight:bold;
+
+}
+/*Query Button end*/
