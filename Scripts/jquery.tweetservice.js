@@ -29,6 +29,7 @@
             TweetObject.resourceurl = resourceurl;
             element.empty();
             TwitterAjaxCall(element);
+            //if an update interval is set run Twitter Ajax call during that interval to update the feed
             if (settings.updateinterval != null)
              {
                 setInterval(function () {
@@ -39,6 +40,7 @@
         }
 
 
+        // Make the a request to the web service method GetTwitterData which returns the relevant data in JSON
         function TwitterAjaxCall(element) {
             $.ajax({
                 type: "POST",
