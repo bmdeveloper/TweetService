@@ -1,7 +1,7 @@
 TweetService
 ============
 
-Uses ASP.net we service to retrieve a set of tweets from a user timeline or search query using the Twitter REST API 1.1. 
+Uses ASP.net web service to retrieve a set of tweets from a user timeline or search query using the Twitter REST API 1.1. 
 
 This simple app was created so other developers can review the code to get a better understanding of how OAUTH 1.1 works and how it is implemented to get twitter data.
 
